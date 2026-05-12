@@ -1,5 +1,5 @@
-const userDefinedTagCategories = {
-	"type": {
-		"description": "type of the paper"
-	}
-}
+var tagCategories = {
+    "keywords": {
+        "description": "Research Domains"
+    }
+};
