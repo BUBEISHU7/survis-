@@ -1,17 +1,65 @@
-﻿const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
-        "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
-        "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
-        "volume": "22",
-        "year": "2016"
+var generatedBib = {
+    "barrett2018measuring": {
+        "author": "Barrett, David and Hill, Felix and Santoro, Adam and Morcos, Ari and Lillicrap, Timothy",
+        "booktitle": "ICML",
+        "doi": "10.48550/arXiv.1807.04225",
+        "title": "Measuring abstract reasoning in neural networks",
+        "year": "2018",
+        "keywords": "Datasets & Benchmarks",
+        "type": "inproceedings"
+    },
+    "zhang2019raven": {
+        "author": "Zhang, Chi and Gao, Feng and Jia, Baoxiong and Zhu, Yixin and Zhu, Song-Chun",
+        "booktitle": "CVPR",
+        "doi": "10.1109/CVPR.2019.00615",
+        "title": "RAVEN: A dataset for relational and analogical visual reasoning",
+        "year": "2019",
+        "keywords": "Datasets & Benchmarks",
+        "type": "inproceedings"
+    },
+    "santoro2017simple": {
+        "author": "Santoro, Adam and others",
+        "booktitle": "NeurIPS",
+        "doi": "10.48550/arXiv.1706.01427",
+        "title": "A simple neural network module for relational reasoning",
+        "year": "2017",
+        "keywords": "CNN-based Methods",
+        "type": "inproceedings"
+    },
+    "dosovitskiy2021image": {
+        "author": "Dosovitskiy, Alexey and others",
+        "booktitle": "ICLR",
+        "doi": "10.48550/arXiv.2010.11929",
+        "title": "An image is worth 16x16 words: Transformers",
+        "year": "2021",
+        "keywords": "Transformer-based",
+        "type": "inproceedings"
+    },
+    "he2023hierarchical": {
+        "author": "He, W and others",
+        "booktitle": "AAAI",
+        "doi": "10.1609/aaai.v37i1.25072",
+        "title": "Hierarchical ConViT with attention-based relational reasoner",
+        "year": "2023",
+        "keywords": "Transformer-based",
+        "type": "inproceedings"
+    },
+    "xu2023zero": {
+        "author": "Xu, Y and others",
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-023-40804-x",
+        "title": "Zero-shot visual reasoning via pre-trained models (visiPAM)",
+        "year": "2023",
+        "keywords": "Cognitive/Hybrid",
+        "type": "article"
+    },
+    "zhang2025algebraic": {
+        "author": "Zhang, T and others",
+        "journal": "Scientific Reports",
+        "doi": "10.1038/s41598-025-86804-3",
+        "title": "Algebraic approaches to visual reasoning in deep learning systems",
+        "year": "2025",
+        "keywords": "Cognitive/Hybrid",
+        "type": "article"
     }
 };
